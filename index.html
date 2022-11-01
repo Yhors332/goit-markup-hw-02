@@ -19,24 +19,27 @@
                 <li class="head-page-title">Портфоліо</li>
                 <li class="head-page-title">Контакти</li>
             </ul>
-            <nav class="info" style="position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;">
-            <a href="mailto:"info@devstudio.com" class="info-title">info@devstudio.com</a>
-            <a href="tel:+"+38 096 111 11 11" class="info-title">+38 096 111 11 11</a>
+            <nav class="info" style="position: absolute;width: 135px;height: 16px;left: 1078px;top: 32px;">
+            <a href="mailto:"info@devstudio.com" class="info-title-head">info@devstudio.com</a>
+            <a href="tel:+"+38 096 111 11 11" class="info-title-head">+38 096 111 11 11</a>
             <style>
-               ul {
+            ul {
                     position: absolute;
                 }
                 li {
-                  position: absolute;
+                    position: absolute;
                     width: 281px;
                     height: 16px;
                     left: 453px;
                     top: 32px;
-                  }     
+                  } 
+                .info-title-head {
+                    position: absolute;
+                    width: 135px;
+                    height: 16px;
+                    left: 1078px;
+                    top: 32px;
+                }    
             </style>
             </nav>
         </div>
@@ -44,7 +47,8 @@ top: 32px;">
 
     <main>
         <div class="body-page" style="height:600px ;width:1600px;background: #2F303A;">
-            <style>h1 {
+            <style>
+                .body-page-text {
                 position: absolute;
                 width: 696px;
                 height: 120px;
@@ -74,15 +78,103 @@ top: 32px;">
                 <h1 class="body-page-text">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="btn-body-page">Замовити послугу</button>
         </div>
-        
+        <div class="main" style="width: 1600px; height: 766px;border: 1px solid #ECECEC ">
+            <span class="main-text-info">   
+                <h3 class="main-text">УВАГА ДО ДЕТАЛЕЙ</h3>            
+                <p class="main-item">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            </span>
+
+            <span class="main-text-info">
+                <h3 class="main-text">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="main-item">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            </span>
+
+            <span class="main-text-info">
+                <h3 class="main-text">ПЛАНУВАННЯ</h3>
+                <p class="main-item">Так само консультація з широким активом значною мірою зумовлює.</p>
+            </span>
+
+            <span class="main-text-info" >
+                <h3 class="main-text">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="main-item">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            </span>
+            <style>
+                .main-text {
+                    
+                    width: 270px;
+                    height: 16px;
+                    left: 215px;
+                    top: 774px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 16px;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #212121;  
+                }
+                p {
+                    
+                    width: 270px;
+                    height: 72px;
+                    left: 1115px;
+                    top: 800px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #757575;  
+                }
+            </style>
+        </div>
+        <div class="main-content">
+            <h1 class="main-content-text">Чим ми займаємося</h1>
+            <img src="" alt="working">
+            <img src="" alt="working">
+            <img src="" alt="working">
+        </div>
+        <div class="main-teem">
+            <h2 class="main-teem-text">Наша команда</h2>
+                <span class="main-teem-page">
+                    <img src="" alt="photo" class="main-teem-photo">
+                        <h3 class="main-name">
+                            <p class="main-work"></p>
+                        </h3>
+                    </img>
+                </span>
+                <span class="main-teem-page">
+                    <img src="" alt="photo" class="main-teem-photo">
+                    <h3 class="main-name">
+                        <p class="main-work"></p>
+                    </h3>
+                    </img>
+                </span>
+                <span class="main-teem-page">
+                    <img src="" alt="photo" class="main-teem-photo">
+                    <h3 class="main-name">
+                        <p class="main-work"></p>
+                    </h3>
+                    </img>
+                </span>
+                <span class="main-teem-page">
+                    <img src="" alt="photo" class="main-teem-photo">
+                    <h3 class="main-name">
+                        <p class="main-work"></p>
+                    </h3>
+                    </img>
+                </span>
+        </div>
     </main>
 
     <footer>
-        <address>
+        <address style="width: 1600px;height: 252px;left: 0px;top: 2094px; background: #2F303A">
             
-            <img src="./img/image_2022-11-01_13-57-15.png" alt="logo-page">
+            <img src="" alt="logo-page">
             <dl class="address">
-                <dt>м. Київ, пр-т Лесі Українки, 26</dt>
+                <dt class="address-info">м. Київ, пр-т Лесі Українки, 26</dt>
                 <dt>
                     <a href="mailto:" info@devstudio.com" class="info-title">info@devstudio.com</a>
                 </dt>
@@ -90,7 +182,34 @@ top: 32px;">
                     <a href="tel:+" +38 096 111 11 11" class="info-title">+38 096 111 11 11</a>
                 </dt>
             </dl>
-
+            <style>
+                .info-title {
+                    width: 136px;
+                    height: 21px;
+                    left: 215px;
+                    top: 2235px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: rgba(255, 255, 255, 0.6);    
+                }
+                .address-info {
+                    width: 231px;
+                    height: 21px;
+                    left: 215px;
+                    top: 2205px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #FFFFFF;
+                }
+            </style>
         </address>
     </footer>
 </body>
