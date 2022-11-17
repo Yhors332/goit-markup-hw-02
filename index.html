@@ -5,35 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <div class="hader" id="start" >
-            <a href="https://yhors332.github.io/goit-markup-hw-01/ " target="_blank" class="page-logo">WebStudio</a>
-            <nav class="menu"> 
+        <nav class="header" id="start" >
+            <a href="/" target="_blank" class="page-logo"><span class="logo-first-liter">Web</span>Studio</a>
+            <div class="menu"> 
                 <ul class="head-page" >
-                    <li class="head-page-title"><a href="#" target="_blank" class="">Студія</a></li>
-                    <li class="head-page-title"><a href="#" target="_blank" class="">Портфоліо</a></li>
-                    <li class="head-page-title"><a href="#" target="_blank" class="">Контакти</a></li>
+                    <li class="head-page-title"><a href="#" target="_blank" class="studio-title-page">Студія</a></li>
+                    <li class="head-page-title"><a href="#" target="_blank" class="portfolio-title-page">Портфоліо</a></li>
+                    <li class="head-page-title"><a href="#" target="_blank" class="contact-title-page">Контакти</a></li>
                 </ul>
+            </div>
             </nav>
-            
-            <div class="info" >
+            <div class="link-info" >
                 
-                <a href="mailto:"info@devstudio.com" class="info-title-head">info@devstudio.com</a>
-                <a href="tel:+"+38 096 111 11 11" class="info-title-head">+38 096 111 11 11</a>                        
-            </div>            
-        </div>
+                <a href="mailto:"info@devstudio.com" class="link-mail-title">info@devstudio.com</a>
+                <a href="tel:+"+38 096 111 11 11" class="link-tel-title">+38 096 111 11 11</a>                        
+            </div>                    
     </header>
 
     <main>
-        <div class="body-page" >
+        <div class="main" >
             
                 <h1 class="body-page-text">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="btn-body-page">Замовити послугу</button>        
+                <button type="button" class="btn-main">Замовити послугу</button>        
             </div>
-        <section class="main" >
+        <section class="main-page" >
             
             <ul class="main-info">
                 <li class="main-info-text">
@@ -57,7 +56,7 @@
 
         <section class="main-content">
             <h1 class="main-content-text">Чим ми займаємося</h1>
-            <ul>
+            <ul class="main-img">
                 <li>
                     <img src="./img/image_1.jpeg" alt="Верстка-сайту" width="370px" height="294px">
                 </li>
@@ -98,13 +97,14 @@
     </main>
 
     <footer>
+    <div class="footer">
         <div class="logo">
-            <a href="#start" class="page-logo-end">WebStudio</a>
+            <a href="/" target="_blank" class="page-logo-end"><span class="logo-first-liter">Web</span>Studio</a>
         </div>
         <address >
             <ul class="page-address">
                 <li class="address-info">
-                    <a href="https://goo.gl/maps/A3neCcu4yrXJGh3V9" target="_blank">м. Київ, пр-т Лесі Українки, 26</a> 
+                    <a href="https://goo.gl/maps/A3neCcu4yrXJGh3V9" target="_blank" class="address-page-link">м. Київ, пр-т Лесі Українки, 26</a> 
                 </li>
                 <li class="address-info">
                     <a href="mailto:" info@devstudio.com" class="info-title">info@devstudio.com</a>
@@ -114,6 +114,7 @@
                 </li>
             </ul>            
         </address>
+    </div>
     </footer>
 </body>
 </html>
