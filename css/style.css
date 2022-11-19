@@ -15,7 +15,6 @@ body {
     font-family: 'Roboto';
     width: 1200px;
     height: 2346px;
-
 }
 
 a {
@@ -37,8 +36,7 @@ a {
 
 .menu {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .page-logo {
@@ -51,8 +49,7 @@ a {
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color:var(--accent-text-color);
-    
+    color:var(--accent-text-color);    
 }    
 
 .logo {
@@ -117,12 +114,10 @@ a {
     color: var(--accent-color);
 }
 
-.hero {
-    
+.hero {    
     background: var(--background-hero-footer-color);
     color: var(--white-color);
-    height: 600px;        
-    
+    height: 600px;            
 }
 
 .hero-title {
@@ -136,10 +131,6 @@ a {
     color: var(--white-color);
     margin-bottom: 30px;
     margin-top:0 ;
-    
-
-    
-
 }
 
 .btn-hero {
@@ -219,9 +210,6 @@ a {
 .main-img .item-visual+.item-visual{
     margin-left: 30px;
 }
-
-
-
 
 .section-teem {
     margin-top: 94px;
