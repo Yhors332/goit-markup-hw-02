@@ -29,11 +29,15 @@ a {
     padding: 0;
 }
 
+.page-header{
+    background-color: var(--white-color);
+}
+
 .container-header {   
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--white-color);
+    
 }
 
 .menu {
@@ -109,6 +113,10 @@ a {
 .auth-nav .auth-link:hover,
 .auth-nav .auth-link:focus {
     color: var(--accent-color);
+}
+
+.page-main {
+    background-color: var(--white-color);
 }
 
 .hero {    
@@ -254,6 +262,20 @@ a {
 
 .section-teem > .title-page {
     padding-top: 94px;
+}
+
+.menu-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-nav {
+    display: inline-block;
+}
+
+.subdivision-portfolio {
+    
 }
 
 .page-footer{
