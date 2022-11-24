@@ -94,7 +94,7 @@ a {
 }
 
 .btn-hero {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -115,6 +115,7 @@ a {
 
 .section-title {
     font-weight: 700;
+    font-size: inherit;
     line-height: 1.14;
     letter-spacing: 0.03em;
     
@@ -153,7 +154,7 @@ a {
 }
 
 .subsection-teem {
-    font-weight: 400;
+    font-weight: inherit;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -169,6 +170,7 @@ a {
 
 .page-logo-end {
     font-weight: 700;
+    font-family: 'Raleway';
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -189,7 +191,7 @@ a {
 .mail,
 .tel {
     font-style: normal;
-    font-weight: 500;
+    font-weight: inherit;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -200,8 +202,7 @@ a {
 /* portfolio */
 
 .btn-portfolio {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
@@ -222,8 +223,6 @@ a {
 }
 
 .section-portfolio-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -233,11 +232,8 @@ a {
 }
 
 .subsection-portfolio {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.9;
     letter-spacing: 0.03em;
 
     color: var(--title-text-color);
